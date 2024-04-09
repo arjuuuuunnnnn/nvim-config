@@ -34,6 +34,7 @@ Now find the `coc.vim` folder, which usually in `~/.config/nvim/plugged/coc.nvim
 <br/>
 Go to that directory
 then
+
 ```bash
 sudo npm install -g yarn
 yarn install
