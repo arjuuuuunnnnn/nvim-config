@@ -47,6 +47,6 @@ to enable autocomplete for python
 in the nvim's command mode
 
 ```bash
-CocInstall coc-python
+:CocInstall coc-python
 ```
 now autocomplete for python got enabled
