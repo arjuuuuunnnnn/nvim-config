@@ -26,7 +26,8 @@ sudo apt-get install exuberant-ctags
 sudo apt-get install npm
 sudo apt-get install nodejs
 sudo apt-get install python3-pip
-pip install jedi```
+pip install jedi
+```
 
 Now find the `coc.vim` folder, which usually in `~/.config/nvim/plugged/coc.nvim` or `~/.local/share/nvim/plugged/coc.nvim`
 
