@@ -2,6 +2,8 @@
 #### Also configured for auto-complete code
 #### Linux
 
+[](image.png)
+
 Create a file named `~/.config/nvim/init.vim`
 <br/>
 
