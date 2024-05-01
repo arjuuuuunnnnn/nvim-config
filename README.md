@@ -1,6 +1,5 @@
 ## Configuration of my NVIM editor
 #### Also configured for auto-complete code
-#### Linux
 
 **NOTE**: using vim plugin manager
 
