@@ -19,7 +19,6 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
-
 call plug#end()
 
 nmap <F8> :TagbarToggle<CR>
@@ -32,6 +31,7 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+
 
 " air-line
 let g:airline_powerline_fonts = 1
@@ -49,4 +49,13 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
+" Setting cursor to underline
+" for all other modes no blinking
+set guicursor=n-v-c:hor20-Cursor/lCursor-blinkon0
+" blinking for insert mode
+set guicursor+=i:hor20-Cursor/lCursor-blinkwait300-blinkoff200-blinkon200
+" blinking for replace mode
+set guicursor+=r:hor20-Cursor/lCursor-blinkwait300-blinkoff200-blinkon200
+
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
+
