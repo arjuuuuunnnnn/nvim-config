@@ -53,3 +53,8 @@ in the nvim's command mode
 :CocInstall coc-python
 ```
 now autocomplete for python got enabled
+<br/>
+To delete any Plugins, remove the Plugin from init.vim file and
+```bash
+:PlugClean
+```
