@@ -44,13 +44,13 @@ yarn install
 yarn build
 ```
 
-Now open any .js or .jsx or .tsx files autocomplete works
 <br/>
-to enable autocomplete for python 
+to enable autocomplete for python, web-dev
 in the nvim's command mode
 
 ```bash
 :CocInstall coc-python
+:CocInstall coc-json coc-tsserver coc-prettier coc-html coc-css
 ```
 now autocomplete for python got enabled
 <br/>
