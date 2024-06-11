@@ -51,6 +51,7 @@ in the nvim's command mode
 ```bash
 :CocInstall coc-python
 :CocInstall coc-json coc-tsserver coc-prettier coc-html coc-css
+coc-eslint
 ```
 now autocomplete for python got enabled
 <br/>
