@@ -45,15 +45,15 @@ yarn build
 ```
 
 <br/>
-to enable autocomplete for python, web-dev
+to enable autocomplete for python, c, cpp, web-dev
 in the nvim's command mode
 
 ```bash
 :CocInstall coc-python
 :CocInstall coc-json coc-tsserver coc-prettier coc-html coc-css
 coc-eslint
+:CocInstall coc-clangd
 ```
-now autocomplete for python got enabled
 <br/>
 To delete any Plugins, remove the Plugin from init.vim file and
 ```bash
