@@ -1,7 +1,6 @@
-## Configuration of my NVIM editor
-#### Also configured for auto-complete code
+## My NVIM text editor config
 
-**NOTE**: using vim plugin manager
+**NOTE**: using ```vim plug```
 
 ![](image.png)
 
